@@ -1,13 +1,69 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  height: 65px;
+  color: white;
+  padding: 15px 20px;
+  gap: 5px;
+}
+
+.header--logo {
+  width: 35px;
+  height: 28px;
+}
+
+.header--title {
+  font-size: 22px;
+  letter-spacing: -0.1em;
+  margin-right: auto;
+}
+
+.header--desc {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.form--section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 30px;
+}
+
+.form--input {
+  display: flex;
+  gap: 20px;
+}
+
+.form--input input {
+  width: 230px;
+  height: 35px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+}
+
+.form--button {
+  width: 477px;
+  height: 40px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  border: none;
 }
