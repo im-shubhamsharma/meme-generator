@@ -6,6 +6,15 @@
 
 body {
   font-family: "Karla", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main--container {
+  margin: auto;
+  border: 5px solid #a626d3;
 }
 
 .header {
@@ -66,4 +75,10 @@ body {
   color: white;
   font-size: 16px;
   border: none;
+}
+
+.form--image {
+  width: 477px;
+  height: 300px;
+  border-radius: 5px;
 }
