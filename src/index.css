@@ -10,11 +10,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url(../public/images/background.jpg);
+  background-position: center;
 }
 
 .main--container {
   margin: auto;
   border: 5px solid #a626d3;
+  background-color: #d5d4d8;
+  overflow: hidden;
 }
 
 .header {
